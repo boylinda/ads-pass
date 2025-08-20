@@ -248,9 +248,6 @@ host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
 
-# > Talkatone
-host-suffix, tappx.com, reject
-
 # > 淘宝
 host-suffix, apoll.m.taobao.com, reject
 host-suffix, h-adashx.ut.taobao.com, reject
@@ -342,12 +339,6 @@ host-suffix, ad.weibo.com, reject
 # 微博开屏广告预加载
 host, bootpreload.uve.weibo.com, reject
 
-# > 小红书
-host, ads-img-qc.xhscdn.com, reject
-host, ads-video-al.xhscdn.com, reject
-host, ads-video-qc.xhscdn.com, reject
-host, t-ads.xiaohongshu.com, reject
-
 # > 云闪付
 host, ads.95516.com, reject
 host, tysdk.95516.com, reject
@@ -356,17 +347,6 @@ host, sdk.open.talk.getui.net, reject
 host, sdk-conf.getui.com, reject
 host, switch.cup.com.cn, reject
 host, ads.cup.com.cn, reject
-
-# > 知乎
-USER-AGENT,AVOS*, reject
-host, appcloud.zhihu.com, reject
-host, appcloud2.in.zhihu.com, reject
-host, mqtt.zhihu.com, reject
-host, sugar.zhihu.com, reject
-host, crash2.zhihu.com, reject
-host, 118.89.204.198, reject
-IP-CIDR, 118.89.204.198/32, reject
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
 # > 中国移动
 IP-CIDR, 120.240.95.37/32, reject
